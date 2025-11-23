@@ -8,23 +8,20 @@ A simple web-based agent to practice interviews via chat and voice.
 
 User (Browser)
 │
-▼
+
 Frontend (HTML + JS + Web Speech API)
 │ Sends user input (text/voice)
-▼
+
 Backend (FastAPI)
 │ Sends prompts to LLM (OpenAI API)
-▼
+
 LLM (OpenAI) generates questions & feedback
 │
-▼
+
 Backend returns response
 │
-▼
-Frontend displays answer / plays voice
 
-yaml
-Copy code
+Frontend displays answer / plays voice
 
 ---
 
